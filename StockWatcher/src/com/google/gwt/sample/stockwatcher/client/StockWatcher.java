@@ -83,7 +83,7 @@ public void onModuleLoad() {
 		stocksFlexTable.setText(0, 0, "Symbol");  
 		stocksFlexTable.setText(0, 1, "Price"); 
 		stocksFlexTable.setText(0, 2, "Change");  
-		stocksFlexTable.setText(0, 3, "Remove");
+		stocksFlexTable.setText(0, 3, "Change");
 		
 		// Add styles to elements in the stock list table.
 	    stocksFlexTable.getRowFormatter().addStyleName(0, "watchListHeader");
